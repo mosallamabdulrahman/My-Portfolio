@@ -1,17 +1,17 @@
 export const myProjects = [
-  { projectTitle: "Tailwind css project",
-    category: ["css"],
-    imgPath: "./images/1.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
-    linkGithub: "https://github.com/mosallamabdulrahman/Tailwind-Builder"
-    },
   {
     projectTitle: "Tailwind css project",
     category: ["css"],
-    imgPath: "./images/2.jpg",
+    imgPath: "./images/1.jpg",
     liveLink: "https://mosallamabdulrahman.github.io/Planet-Website/",
     linkGithub: "https://github.com/mosallamabdulrahman/Planet-Website"
   },
+  { projectTitle: "Tailwind css project",
+    category: ["css"],
+    imgPath: "./images/2.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Tailwind-Builder"
+    },
   {
     projectTitle: "Css Project",
     category: ["css"],
