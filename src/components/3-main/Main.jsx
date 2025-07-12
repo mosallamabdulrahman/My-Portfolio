@@ -11,19 +11,19 @@ const Main = () => {
     setcurrentActive(buttonCategory);
 
     const newArr = myProjects.filter((item) => {
-      const ZZZ = item.category.find((myItem) => {
+      const selectedTab = item.category.find((myItem) => {
         return myItem === buttonCategory;
       });
 
-      return ZZZ === buttonCategory;
+      return selectedTab === buttonCategory;
     });
 
     setArr(newArr);
   };
-
+  
   return (
     <main className="flex">
-      <section className="flex  left-section">
+      <section className="flex left-section">
         <button
           onClick={() => {
             setcurrentActive("all");

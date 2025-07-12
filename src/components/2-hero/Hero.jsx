@@ -36,8 +36,9 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <a href="https://github.com/mosallamabdulrahman"><div className="icon icon-github"></div></a>
+          <a href="https://www.facebook.com/abdo.rafat.14019"><div className="icon icon-facebook2"></div></a>
           <a href="https://www.linkedin.com/in/abdulrahman-rafat-998760316/"><div className="icon icon-linkedin"></div></a>
+          <a href="https://github.com/mosallamabdulrahman"><div className="icon icon-github"></div></a>
         </div>
       </div>
 
