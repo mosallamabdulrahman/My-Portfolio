@@ -75,4 +75,11 @@ export const myProjects = [
     liveLink: "https://mosallamabdulrahman.github.io/hangman-game/",
     linkGithub: "https://github.com/mosallamabdulrahman/hangman-game"
   },
+  {
+    projectTitle: "React & MUI",
+    category: ["react"],
+    imgPath: "./images/12.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/PrayerTimes/",
+    linkGithub: "https://github.com/mosallamabdulrahman/PrayerTimes"
+  },
 ];
