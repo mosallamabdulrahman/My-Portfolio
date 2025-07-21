@@ -45,6 +45,15 @@ const Main = () => {
 
         <button
           onClick={() => {
+            handleClick("tailwindcss");
+          }}
+          className={currentActive === "tailwindcss" ? "active" : null}
+        >
+          HTML & Tailwind Css
+        </button>
+
+        <button
+          onClick={() => {
             handleClick("js");
           }}
           className={currentActive === "js" ? "active" : null}
