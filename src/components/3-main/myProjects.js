@@ -1,12 +1,12 @@
 export const myProjects = [
   {
-    projectTitle: "Planet-Website",
+    projectTitle: "Planet Website",
     category: ["tailwindcss"],
     imgPath: "./images/1.jpg",
     liveLink: "https://mosallamabdulrahman.github.io/Planet-Website/",
     linkGithub: "https://github.com/mosallamabdulrahman/Planet-Website"
   },
-  { projectTitle: "Tailwind-Builder",
+  { projectTitle: "Tailwind Builder",
     category: ["tailwindcss"],
     imgPath: "./images/2.jpg",
     liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
