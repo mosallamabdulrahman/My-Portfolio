@@ -5,7 +5,7 @@ import doneAnimation from "../../animation/done.json";
 import contactAnimation from "../../animation/contact.json";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xrgvvdlo");
+  const [state, handleSubmit] = useForm("xnnzvdvj");
 
   return (
     <section className="contact-us">
@@ -27,6 +27,7 @@ const Contact = () => {
               type="email"
               name="email"
               id="email"
+              pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
             />
             <ValidationError
               prefix="Email"
@@ -49,6 +50,14 @@ const Contact = () => {
             {state.submitting ? "Submitting ..." : "Submit"}
           </button>
 
+          {state.errors.length > 0 && (
+            <p
+              className="error-message"
+              style={{ color: "red", marginTop: "1rem" }}
+            >
+              Something went wrong. Please try again.
+            </p>
+          )}
           {state.succeeded && (
             <p
               className="flex"
@@ -59,7 +68,7 @@ const Contact = () => {
                 style={{ height: 37 }}
                 animationData={doneAnimation}
               />
-              Your message has been sent successfully 👌
+              Your message has been sent successfully
             </p>
           )}
         </form>
