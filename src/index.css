@@ -5,6 +5,7 @@ html {
   letter-spacing: 0.1px;
   scroll-behavior: smooth;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -32,6 +33,10 @@ html {
   --icon-hover: #d4d4d8;
 
   --container-padding: 4.8rem;
+
+  --cv-bg: #5b2eff;
+  --cv-bg-hover: #4a23d6;
+  --cv-icon-color: white;
 }
 
 .light {
@@ -46,6 +51,10 @@ html {
   --blue: rgb(0, 149, 246);
 
   --icon-hover: #333;
+
+  --cv-bg: #4f46e5;
+  --cv-bg-hover: #4338ca;
+  --cv-icon-color: white;
 }
 
 body {
@@ -73,11 +82,13 @@ body {
 li {
   list-style: none;
 }
+
 a {
   all: unset;
 
   transition: 0.2s;
 }
+
 a:hover {
   cursor: pointer;
 }

@@ -54,6 +54,7 @@ section.hero .all-icons {
   font-size: 1.3rem;
   gap: 1.5rem;
   color: var(--subtitle);
+  margin-bottom: 1rem;
 }
 
 section.hero .all-icons .icon:hover {
@@ -75,4 +76,27 @@ section.hero .animation {
   section.hero .animation {
     display: none;
   }
+}
+.download-cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--cv-bg);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-cv-btn:hover {
+  background-color: var(--cv-bg-hover);
+}
+
+.download-icon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--cv-icon-color);
 }

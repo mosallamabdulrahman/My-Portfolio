@@ -32,20 +32,16 @@ const Header = () => {
       <nav>
         <ul className="flex">
           <li>
-            <a href="">About</a>
-          </li>
-
-          <li>
-            <a href="">Articles</a>
+            <a href="#hero">About</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#skills">MySkills</a>
           </li>
           <li>
-            <a href="">Speaking</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

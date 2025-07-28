@@ -22,7 +22,7 @@ const Main = () => {
   };
   
   return (
-    <main className="flex">
+    <main id="projects" className="flex">
       <section className="flex left-section">
         <button
           onClick={() => {
@@ -49,7 +49,7 @@ const Main = () => {
           }}
           className={currentActive === "tailwindcss" ? "active" : null}
         >
-          HTML & Tailwind Css
+          HTML & Tailwind
         </button>
 
         <button

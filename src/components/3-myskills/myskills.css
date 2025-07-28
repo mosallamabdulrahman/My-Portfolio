@@ -1,0 +1,60 @@
+.skills-section h1 {
+    text-align: center;
+    color: var(--title);
+    margin-bottom: 15px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.skill-card {
+    background: linear-gradient(rgba(255, 255, 255, 0.05),
+            rgba(255, 255, 255, 0.05));
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    scale: 1.02;
+}
+
+.skill-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+}
+
+.skill-content h3 {
+    color: var(--title);
+}
+
+.skill-content p {
+    color: var(--subtitle);
+}
+
+
+/* =====================================
+  3- Responsive Design (media query)
+======================================== */
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px ) {
+    .skills-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
