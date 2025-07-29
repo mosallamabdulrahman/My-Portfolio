@@ -48,11 +48,15 @@ const Hero = () => {
             <div className="icon icon-github"></div>
           </a>
         </div>
-          <a href="/cv.pdf" download className="download-cv-btn">
-            <DocumentArrowDownIcon className="download-icon" />
-            Download My CV
-          </a>
-
+        <a
+          // @ts-ignore
+          href={`${import.meta.env.BASE_URL}cv.pdf`}
+          download
+          className="download-cv-btn"
+        >
+          <DocumentArrowDownIcon className="download-icon" />
+          Download My CV
+        </a>
       </div>
 
       <div className="right-section animation ">
