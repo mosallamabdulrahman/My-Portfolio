@@ -50,7 +50,7 @@ const Hero = () => {
         </div>
         <a
           // @ts-ignore
-          href={`${import.meta.env.BASE_URL}cv.pdf`}
+          href={`${import.meta.env.BASE_URL}Abdulrahman-Rafat-CV.pdf`}
           download
           className="download-cv-btn"
         >

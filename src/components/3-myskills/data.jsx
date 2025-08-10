@@ -24,6 +24,7 @@ const skills = [
     // @ts-ignore
     icon: <SiCss3 color="#2563EB" size={40} />,
   },
+  
   {
     title: "Tailwind CSS",
     level: "Advanced",
