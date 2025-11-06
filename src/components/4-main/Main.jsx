@@ -62,19 +62,19 @@ const Main = () => {
         </button>
         <button
           onClick={() => {
-            handleClick("ts");
-          }}
-          className={currentActive === "ts" ? "active" : null}
-        >
-          TypeScript
-        </button>
-        <button
-          onClick={() => {
             handleClick("react");
           }}
           className={currentActive === "react" ? "active" : null}
         >
           React & MUI
+        </button>
+        <button
+          onClick={() => {
+            handleClick("wp-elementor");
+          }}
+          className={currentActive === "wp-elementor" ? "active" : null}
+        >
+          Wp & Elementor
         </button>
       </section>
 

@@ -1,9 +1,16 @@
+// @ts-nocheck
 import Lottie from "lottie-react";
 import "./hero.css";
 import devAnimation from "../../animation/dev.json";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import { DocumentArrowDownIcon } from "@heroicons/react/24/outline";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaGithub,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const Hero = () => {
   const lottieRef = useRef();
@@ -38,19 +45,33 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <a href="https://www.facebook.com/abdo.rafat.14019">
-            <div className="icon icon-facebook2"></div>
+          <a href="https://www.facebook.com/abdo.rafat.14019" target="_blank">
+            <FaFacebookF className="social-icon" />
           </a>
-          <a href="https://www.linkedin.com/in/abdulrahman-rafat-998760316/">
-            <div className="icon icon-linkedin"></div>
+
+          <a
+            href="https://wa.me/201021688499"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp className="social-icon" />
           </a>
-          <a href="https://github.com/mosallamabdulrahman">
-            <div className="icon icon-github"></div>
+
+          <a
+            href="https://www.linkedin.com/in/abdulrahman-rafat-998760316/"
+            target="_blank"
+          >
+            <FaLinkedinIn className="social-icon" />
           </a>
+
+          <a href="https://github.com/mosallamabdulrahman" target="_blank">
+            <FaGithub className="social-icon" />
+          </a>  
         </div>
+
         <a
           // @ts-ignore
-          href={`${import.meta.env.BASE_URL}Abdulrahman-Rafat-CV.pdf`}
+          href={`${import.meta.env.BASE_URL}Abdulrahman-Rafat-Wordpress.pdf`}
           download
           className="download-cv-btn"
         >

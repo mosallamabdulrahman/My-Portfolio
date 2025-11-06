@@ -63,6 +63,31 @@ section.hero .all-icons .icon:hover {
   cursor: pointer;
   color: var(--icon-hover);
 }
+.facebook:hover .social-icon {
+  color: #1877F2;
+}
+
+/* WhatsApp Hover */
+.whatsapp:hover .social-icon {
+  color: #25D366;
+}
+
+/* LinkedIn Hover */
+.linkedin:hover .social-icon {
+  color: #0A66C2;
+}
+
+/* GitHub Hover */
+.github:hover .social-icon {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+/* Animated hover effect for all */
+.all-icons a:hover .social-icon {
+  transform: scale(1.2);
+}
+
 
 /* ===================================
     2. Right Section ==> animation
