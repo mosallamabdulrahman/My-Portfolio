@@ -26,6 +26,13 @@ export const myProjects = [
     linkGithub: "https://github.com/mosallamabdulrahman/AMI",
   },
   {
+    projectTitle: "Mosallam Design Legacy",
+    category: ["tailwindcss"],
+    imgPath: "./images/mosallam-company-design-legacy.png",
+    liveLink: "https://mosallamabdulrahman.github.io/mosallam-company-design-legacy/",
+    linkGithub: "https://github.com/mosallamabdulrahman/mosallam-company-design-legacy",
+  },
+  {
     projectTitle: "Tailwind Builder",
     category: ["tailwindcss"],
     imgPath: "./images/tailwind-builder.jpg",
