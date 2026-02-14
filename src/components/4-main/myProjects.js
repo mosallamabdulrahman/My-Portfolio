@@ -19,11 +19,11 @@ export const myProjects = [
     liveLink: "https://congroupeg.com/",
   },
   {
-    projectTitle: "Dr Jumbo",
+    projectTitle: "Dr Jumbo Bags",
     category: ["react-tailwindcss"],
     imgPath: "./images/drjumbo.png",
-    liveLink: "https://mosallamabdulrahman.github.io/AMI/",
-    linkGithub: "https://github.com/mosallamabdulrahman/AMI",
+    liveLink: "https://drjumbobag.com/",
+    linkGithub: "https://mosallamabdulrahman.github.io/drjumbobags/",
   },
   {
     projectTitle: "AMI",
