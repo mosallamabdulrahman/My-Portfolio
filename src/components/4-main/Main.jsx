@@ -62,6 +62,14 @@ const Main = () => {
         </button>
         <button
           onClick={() => {
+            handleClick("react-tailwindcss");
+          }}
+          className={currentActive === "react-tailwindcss" ? "active" : null}
+        >
+          React & Tailwind Css
+        </button>
+        <button
+          onClick={() => {
             handleClick("react");
           }}
           className={currentActive === "react" ? "active" : null}

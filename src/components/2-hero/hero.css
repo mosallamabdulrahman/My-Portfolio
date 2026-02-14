@@ -125,3 +125,47 @@ section.hero .animation {
   height: 20px;
   stroke: var(--cv-icon-color);
 }
+.cv-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.cv-dropdown {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  background: #1f1f2e;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  display: flex;
+  gap: 8px;
+  z-index: 100;
+  margin-bottom: 30px;
+  width: 390px;
+}
+
+.cv-option {
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+  background: #2a2a3d;
+}
+
+.cv-option:hover {
+  background: linear-gradient(45deg, #6d28d9, #9333ea);
+  transform: translateX(4px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cv-dropdown {
+    width: 220px;
+    flex-direction: column;
+      top: 50px;
+  }
+}

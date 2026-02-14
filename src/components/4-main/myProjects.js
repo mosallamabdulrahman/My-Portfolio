@@ -19,6 +19,13 @@ export const myProjects = [
     liveLink: "https://congroupeg.com/",
   },
   {
+    projectTitle: "Dr Jumbo",
+    category: ["react-tailwindcss"],
+    imgPath: "./images/drjumbo.png",
+    liveLink: "https://mosallamabdulrahman.github.io/AMI/",
+    linkGithub: "https://github.com/mosallamabdulrahman/AMI",
+  },
+  {
     projectTitle: "AMI",
     category: ["css"],
     imgPath: "./images/ami.jpg",
