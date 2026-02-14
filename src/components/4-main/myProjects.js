@@ -23,7 +23,7 @@ export const myProjects = [
     category: ["react-tailwindcss"],
     imgPath: "./images/drjumbo.png",
     liveLink: "https://drjumbobag.com/",
-    linkGithub: "https://mosallamabdulrahman.github.io/drjumbobags/",
+    linkGithub: "https://github.com/mosallamabdulrahman/drjumbobags",
   },
   {
     projectTitle: "AMI",
