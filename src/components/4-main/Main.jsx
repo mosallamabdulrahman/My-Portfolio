@@ -78,6 +78,14 @@ const Main = () => {
         </button>
         <button
           onClick={() => {
+            handleClick("wp-blocks");
+          }}
+          className={currentActive === "wp-blocks" ? "active" : null}
+        >
+          Wp & Blocks
+        </button>
+        <button
+          onClick={() => {
             handleClick("wp-elementor");
           }}
           className={currentActive === "wp-elementor" ? "active" : null}

@@ -1,16 +1,16 @@
 export const myProjects = [
   {
-    projectTitle: "Planet Website",
-    category: ["tailwindcss"],
-    imgPath: "./images/planet-website.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/Planet-Website/",
-    linkGithub: "https://github.com/mosallamabdulrahman/Planet-Website",
-  },
-  {
     projectTitle: "Satcofood",
     category: ["wp-elementor"],
     imgPath: "./images/satcofood.png",
     liveLink: "https://satcofood.com/",
+  },
+  {
+    projectTitle: "Najd Travel",
+    category: ["wp-blocks"],
+    imgPath: "./images/najd-travel.png",
+    liveLink: "https://custom.najd-travel.com/",
+    linkGithub: "",
   },
   {
     projectTitle: "Congroupeg",
@@ -26,13 +26,6 @@ export const myProjects = [
     linkGithub: "https://github.com/mosallamabdulrahman/drjumbobags",
   },
   {
-    projectTitle: "AMI",
-    category: ["css"],
-    imgPath: "./images/ami.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/AMI/",
-    linkGithub: "https://github.com/mosallamabdulrahman/AMI",
-  },
-  {
     projectTitle: "Mosallam Design Legacy",
     category: ["tailwindcss"],
     imgPath: "./images/mosallam-company-design-legacy.png",
@@ -40,18 +33,32 @@ export const myProjects = [
     linkGithub: "https://github.com/mosallamabdulrahman/mosallam-company-design-legacy",
   },
   {
-    projectTitle: "Tailwind Builder",
-    category: ["tailwindcss"],
-    imgPath: "./images/tailwind-builder.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
-    linkGithub: "https://github.com/mosallamabdulrahman/Tailwind-Builder",
-  },
-  {
     projectTitle: "PrayerTimes",
     category: ["react"],
     imgPath: "./images/prayer-times.jpg",
     liveLink: "https://mosallamabdulrahman.github.io/PrayerTimes/",
     linkGithub: "https://github.com/mosallamabdulrahman/PrayerTimes",
+  },
+  {
+    projectTitle: "Planet Website",
+    category: ["tailwindcss"],
+    imgPath: "./images/planet-website.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Planet-Website/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Planet-Website",
+  },
+  {
+    projectTitle: "AMI",
+    category: ["css"],
+    imgPath: "./images/ami.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/AMI/",
+    linkGithub: "https://github.com/mosallamabdulrahman/AMI",
+  },
+  {
+    projectTitle: "Tailwind Builder",
+    category: ["tailwindcss"],
+    imgPath: "./images/tailwind-builder.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Tailwind-Builder",
   },
   {
     projectTitle: "Todos by React + Vite",
