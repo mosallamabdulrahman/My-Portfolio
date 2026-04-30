@@ -9,7 +9,7 @@ export const myProjects = [
     projectTitle: "Najd Travel",
     category: ["wp-blocks"],
     imgPath: "./images/najd-travel.png",
-    liveLink: "https://custom.najd-travel.com/",
+    liveLink: "https://najdtravel.com/",
     linkGithub: "",
   },
   {
