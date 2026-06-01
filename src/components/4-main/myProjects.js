@@ -1,0 +1,95 @@
+export const myProjects = [
+  {
+    projectTitle: "Satcofood",
+    category: ["wp-elementor"],
+    imgPath: "./images/satcofood.png",
+    liveLink: "https://satcofood.com/",
+  },
+  {
+    projectTitle: "Najd Travel",
+    category: ["wp-blocks"],
+    imgPath: "./images/najd-travel.png",
+    liveLink: "https://najdtravel.com/",
+    linkGithub: "",
+  },
+  {
+    projectTitle: "Congroupeg",
+    category: ["wp-elementor"],
+    imgPath: "./images/congroupeg.png",
+    liveLink: "https://congroupeg.com/",
+  },
+  {
+    projectTitle: "Jbara Automotive",
+    category: ["wp-elementor"],
+    imgPath: "./images/jbara-automotive.webp",
+    liveLink: "https://jbaraautomotive.nl/",
+    linkGithub: "",
+  },
+  {
+    projectTitle: "Dr Jumbo Bags",
+    category: ["react-tailwindcss"],
+    imgPath: "./images/drjumbo.png",
+    liveLink: "https://drjumbobag.com/",
+    linkGithub: "https://github.com/mosallamabdulrahman/drjumbobags",
+  },
+  {
+    projectTitle: "Mosallam Design Legacy",
+    category: ["tailwindcss"],
+    imgPath: "./images/mosallam-company-design-legacy.png",
+    liveLink: "https://mosallamabdulrahman.github.io/mosallam-company-design-legacy/",
+    linkGithub: "https://github.com/mosallamabdulrahman/mosallam-company-design-legacy",
+  },
+  {
+    projectTitle: "PrayerTimes",
+    category: ["react"],
+    imgPath: "./images/prayer-times.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/PrayerTimes/",
+    linkGithub: "https://github.com/mosallamabdulrahman/PrayerTimes",
+  },
+  {
+    projectTitle: "Planet Website",
+    category: ["tailwindcss"],
+    imgPath: "./images/planet-website.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Planet-Website/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Planet-Website",
+  },
+  {
+    projectTitle: "AMI",
+    category: ["css"],
+    imgPath: "./images/ami.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/AMI/",
+    linkGithub: "https://github.com/mosallamabdulrahman/AMI",
+  },
+  {
+    projectTitle: "Tailwind Builder",
+    category: ["tailwindcss"],
+    imgPath: "./images/tailwind-builder.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Tailwind-Builder",
+  },
+  {
+    projectTitle: "Todos by React + Vite",
+    category: ["react"],
+    imgPath: "./images/todos-by-react.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Todos-by-React/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Todos-by-React",
+  },
+  {
+    projectTitle: "Rock Paper Scissors",
+    category: ["js"],
+    imgPath: "./images/javascript-game-rock-paper-scissors.jpg",
+    liveLink:
+      "https://mosallamabdulrahman.github.io/JavaScript-Game-Rock-Paper-Scissors/",
+    linkGithub:
+      "https://github.com/mosallamabdulrahman/JavaScript-Game-Rock-Paper-Scissors",
+  },
+  {
+    projectTitle: "Strong Password Generator",
+    category: ["js"],
+    imgPath: "./images/strong-password-generator.jpg",
+    liveLink:
+      "https://mosallamabdulrahman.github.io/Strong-Password-Generator/",
+    linkGithub:
+      "https://github.com/mosallamabdulrahman/Strong-Password-Generator",
+  },
+];
