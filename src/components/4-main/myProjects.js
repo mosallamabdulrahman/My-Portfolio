@@ -13,6 +13,12 @@ export const myProjects = [
     linkGithub: "",
   },
   {
+    projectTitle: "Itadmins",
+    category: ["react-tailwindcss"],
+    imgPath: "./images/itadmins.png",
+    liveLink: "https://newitadmins.mosalam.com/",
+  },
+  {
     projectTitle: "Congroupeg",
     category: ["wp-elementor"],
     imgPath: "./images/congroupeg.png",
