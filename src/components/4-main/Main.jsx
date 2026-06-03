@@ -121,7 +121,7 @@ const Main = () => {
                       <a href={item.linkGithub} target="_blank" rel="noopener noreferrer"><div className="icon-github"></div></a>
                     </div>
 
-                    <a className="link flex" href="">
+                    <a className="link flex" href={item.liveLink} target="_blank" rel="noopener noreferrer">
                       more
                       <span
                         style={{ alignSelf: "end" }}
