@@ -67,13 +67,6 @@ export const myProjects = [
     linkGithub: "https://github.com/mosallamabdulrahman/AMI",
   },
   {
-    projectTitle: "Tailwind Builder",
-    category: ["tailwindcss"],
-    imgPath: "./images/tailwind-builder.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/Tailwind-Builder/",
-    linkGithub: "https://github.com/mosallamabdulrahman/Tailwind-Builder",
-  },
-  {
     projectTitle: "Todos by React + Vite",
     category: ["react"],
     imgPath: "./images/todos-by-react.jpg",
