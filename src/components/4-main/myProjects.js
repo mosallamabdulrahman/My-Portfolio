@@ -1,22 +1,21 @@
 export const myProjects = [
   {
-    projectTitle: "Satcofood",
-    category: ["wp-elementor"],
-    imgPath: "./images/satcofood.png",
-    liveLink: "https://satcofood.com/",
-  },
-  {
-    projectTitle: "Najd Travel",
-    category: ["wp-blocks"],
-    imgPath: "./images/najd-travel.png",
-    liveLink: "https://najdtravel.com/",
-    linkGithub: "",
-  },
-  {
     projectTitle: "Itadmins",
     category: ["react-tailwindcss"],
     imgPath: "./images/itadmins.png",
     liveLink: "https://newitadmins.mosalam.com/",
+  },
+  {
+    projectTitle: "Swiss Pack",
+    category: ["wp-blocks"],
+    imgPath: "./images/swisspack.png",
+    liveLink: "https://swiss.redimpexgroup.com/",
+  },
+  {
+    projectTitle: "Satcofood",
+    category: ["wp-elementor"],
+    imgPath: "./images/satcofood.png",
+    liveLink: "https://satcofood.com/",
   },
   {
     projectTitle: "Congroupeg",
