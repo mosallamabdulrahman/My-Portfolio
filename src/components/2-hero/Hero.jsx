@@ -46,7 +46,11 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <a href="https://www.facebook.com/abdo.rafat.14019" target="_blank">
+          <a
+            href="https://www.facebook.com/abdo.rafat.14019"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebookF className="social-icon" />
           </a>
 
@@ -59,13 +63,18 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/abdulrahman-rafat-998760316/"
+            href="https://www.linkedin.com/in/abdulrahman-rafat-921339413/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedinIn className="social-icon" />
           </a>
 
-          <a href="https://github.com/mosallamabdulrahman" target="_blank">
+          <a
+            href="https://github.com/mosallamabdulrahman"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub className="social-icon" />
           </a>
         </div>
