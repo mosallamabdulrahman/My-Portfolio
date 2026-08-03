@@ -12,6 +12,12 @@ export const myProjects = [
     liveLink: "https://swiss.redimpexgroup.com/",
   },
   {
+    projectTitle: "Mosalam Company",
+    category: ["wp-blocks"],
+    imgPath: "./images/mosalam.png",
+    liveLink: "https://mosalam.com/",
+  },
+  {
     projectTitle: "Satcofood",
     category: ["wp-elementor"],
     imgPath: "./images/satcofood.png",
