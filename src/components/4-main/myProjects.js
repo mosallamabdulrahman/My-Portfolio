@@ -18,6 +18,12 @@ export const myProjects = [
     liveLink: "https://satcofood.com/",
   },
   {
+    projectTitle: "Estkrar",
+    category: ["wp-blocks"],
+    imgPath: "./images/estkrar.png",
+    liveLink: "https://estkrar.com/",
+  },
+  {
     projectTitle: "Congroupeg",
     category: ["wp-elementor"],
     imgPath: "./images/congroupeg.png",
@@ -31,25 +37,18 @@ export const myProjects = [
     linkGithub: "",
   },
   {
+    projectTitle: "Marketflect",
+    category: ["wp-elementor"],
+    imgPath: "./images/marketflect.png",
+    liveLink: "https://marketflect.com/",
+    linkGithub: "",
+  },
+  {
     projectTitle: "Dr Jumbo Bags",
     category: ["react-tailwindcss"],
     imgPath: "./images/drjumbo.png",
     liveLink: "https://drjumbobag.com/",
-    linkGithub: "https://github.com/mosallamabdulrahman/drjumbobags",
-  },
-  {
-    projectTitle: "Mosallam Design Legacy",
-    category: ["tailwindcss"],
-    imgPath: "./images/mosallam-company-design-legacy.png",
-    liveLink: "https://mosallamabdulrahman.github.io/mosallam-company-design-legacy/",
-    linkGithub: "https://github.com/mosallamabdulrahman/mosallam-company-design-legacy",
-  },
-  {
-    projectTitle: "PrayerTimes",
-    category: ["react"],
-    imgPath: "./images/prayer-times.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/PrayerTimes/",
-    linkGithub: "https://github.com/mosallamabdulrahman/PrayerTimes",
+    linkGithub: "",
   },
   {
     projectTitle: "Planet Website",
@@ -59,6 +58,22 @@ export const myProjects = [
     linkGithub: "https://github.com/mosallamabdulrahman/Planet-Website",
   },
   {
+    projectTitle: "A3elank",
+    category: ["wp-blocks"],
+    imgPath: "./images/a3elank.png",
+    liveLink: "https://a3elank.com/",
+    linkGithub: "",
+  },
+  {
+    projectTitle: "Mosallam Design Legacy",
+    category: ["tailwindcss"],
+    imgPath: "./images/mosallam-company-design-legacy.png",
+    liveLink:
+      "https://mosallamabdulrahman.github.io/mosallam-company-design-legacy/",
+    linkGithub: "",
+  },
+
+  {
     projectTitle: "AMI",
     category: ["css"],
     imgPath: "./images/ami.jpg",
@@ -66,11 +81,11 @@ export const myProjects = [
     linkGithub: "https://github.com/mosallamabdulrahman/AMI",
   },
   {
-    projectTitle: "Todos by React + Vite",
+    projectTitle: "PrayerTimes",
     category: ["react"],
-    imgPath: "./images/todos-by-react.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/Todos-by-React/",
-    linkGithub: "https://github.com/mosallamabdulrahman/Todos-by-React",
+    imgPath: "./images/prayer-times.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/PrayerTimes/",
+    linkGithub: "https://github.com/mosallamabdulrahman/PrayerTimes",
   },
   {
     projectTitle: "Rock Paper Scissors",
@@ -81,6 +96,14 @@ export const myProjects = [
     linkGithub:
       "https://github.com/mosallamabdulrahman/JavaScript-Game-Rock-Paper-Scissors",
   },
+  {
+    projectTitle: "Todos by React + Vite",
+    category: ["react"],
+    imgPath: "./images/todos-by-react.jpg",
+    liveLink: "https://mosallamabdulrahman.github.io/Todos-by-React/",
+    linkGithub: "https://github.com/mosallamabdulrahman/Todos-by-React",
+  },
+
   {
     projectTitle: "Strong Password Generator",
     category: ["js"],

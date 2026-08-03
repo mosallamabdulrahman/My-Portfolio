@@ -20,7 +20,7 @@ const Main = () => {
 
     setArr(newArr);
   };
-  
+
   return (
     <main id="projects" className="flex">
       <section className="flex left-section">
@@ -106,7 +106,9 @@ const Main = () => {
                 key={item.imgPath}
                 className="card"
               >
-                <img width={266} src={item.imgPath} alt="" />
+                <div className="img-box">
+                  <img src={item.imgPath} alt={item.projectTitle} />
+                </div>
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
@@ -117,11 +119,28 @@ const Main = () => {
 
                   <div className="flex icons">
                     <div style={{ gap: "11px" }} className="flex">
-                      <a href={item.liveLink} target="_blank" rel="noopener noreferrer"><div className="icon-link"></div></a>
-                      <a href={item.linkGithub} target="_blank" rel="noopener noreferrer"><div className="icon-github"></div></a>
+                      <a
+                        href={item.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <div className="icon-link"></div>
+                      </a>
+                      <a
+                        href={item.linkGithub}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <div className="icon-github"></div>
+                      </a>
                     </div>
 
-                    <a className="link flex" href={item.liveLink} target="_blank" rel="noopener noreferrer">
+                    <a
+                      className="link flex"
+                      href={item.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       more
                       <span
                         style={{ alignSelf: "end" }}
