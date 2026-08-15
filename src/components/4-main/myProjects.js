@@ -17,12 +17,7 @@ export const myProjects = [
     imgPath: "./images/swisspack.png",
     liveLink: "https://swiss.redimpexgroup.com/",
   },
-  {
-    projectTitle: "Satcofood",
-    category: ["wp-elementor"],
-    imgPath: "./images/satcofood.png",
-    liveLink: "https://satcofood.com/",
-  },
+
   {
     projectTitle: "Estkrar",
     category: ["wp-blocks"],
@@ -34,6 +29,12 @@ export const myProjects = [
     category: ["wp-blocks"],
     imgPath: "./images/najd-travel.png",
     liveLink: "https://najdtravel.com/",
+  },
+  {
+    projectTitle: "Satcofood",
+    category: ["wp-elementor"],
+    imgPath: "./images/satcofood.png",
+    liveLink: "https://satcofood.com/",
   },
   {
     projectTitle: "Congroupeg",
