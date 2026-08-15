@@ -1,5 +1,11 @@
 export const myProjects = [
   {
+    projectTitle: "Mosalam Company",
+    category: ["wp-blocks"],
+    imgPath: "./images/mosalam.png",
+    liveLink: "https://mosalam.com/",
+  },
+  {
     projectTitle: "Itadmins",
     category: ["react-tailwindcss"],
     imgPath: "./images/itadmins.png",
@@ -12,12 +18,6 @@ export const myProjects = [
     liveLink: "https://swiss.redimpexgroup.com/",
   },
   {
-    projectTitle: "Mosalam Company",
-    category: ["wp-blocks"],
-    imgPath: "./images/mosalam.png",
-    liveLink: "https://mosalam.com/",
-  },
-  {
     projectTitle: "Satcofood",
     category: ["wp-elementor"],
     imgPath: "./images/satcofood.png",
@@ -28,6 +28,12 @@ export const myProjects = [
     category: ["wp-blocks"],
     imgPath: "./images/estkrar.png",
     liveLink: "https://estkrar.com/",
+  },
+  {
+    projectTitle: "Najd Travel",
+    category: ["wp-blocks"],
+    imgPath: "./images/najd-travel.png",
+    liveLink: "https://najdtravel.com/",
   },
   {
     projectTitle: "Congroupeg",
