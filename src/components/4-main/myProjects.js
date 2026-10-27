@@ -2,45 +2,71 @@ export const myProjects = [
   {
     projectTitle: "Mosalam Company",
     category: ["wp-blocks"],
-    imgPath: "./images/mosalam.png",
+    imgPath: "./images/mosalam.webp",
     liveLink: "https://mosalam.com/",
   },
   {
     projectTitle: "Itadmins",
     category: ["react-tailwindcss"],
-    imgPath: "./images/itadmins.png",
+    imgPath: "./images/newitadmins.webp",
     liveLink: "https://newitadmins.mosalam.com/",
   },
   {
     projectTitle: "Swiss Pack",
     category: ["wp-blocks"],
-    imgPath: "./images/swisspack.png",
+    imgPath: "./images/swiss-pack.webp",
     liveLink: "https://swiss.redimpexgroup.com/",
   },
-
+  {
+    projectTitle: "Derwaza Mall",
+    category: ["wp-blocks"],
+    imgPath: "./images/derwazamall.webp",
+    liveLink: "https://derwazamall.com/",
+  },
+  {
+    projectTitle: "AMI",
+    category: ["wp-blocks"],
+    imgPath: "./images/ami.webp",
+    liveLink: "https://a-m-institution.eu/",
+    linkGithub: "",
+  },
   {
     projectTitle: "Estkrar",
     category: ["wp-blocks"],
-    imgPath: "./images/estkrar.png",
+    imgPath: "./images/estkrar.webp",
     liveLink: "https://estkrar.com/",
   },
   {
+    projectTitle: "Drasawgdwa",
+    category: ["wp-blocks"],
+    imgPath: "./images/drasawgdwa.webp",
+    liveLink: "https://drasawgdwa.com/",
+  },
+
+  {
     projectTitle: "Najd Travel",
     category: ["wp-blocks"],
-    imgPath: "./images/najd-travel.png",
+    imgPath: "./images/najdtravel.webp",
     liveLink: "https://najdtravel.com/",
+  },
+  {
+    projectTitle: "Congroupeg",
+    category: ["wp-elementor"],
+    imgPath: "./images/congroupeg.webp",
+    liveLink: "https://congroupeg.com/",
+  },
+  {
+    projectTitle: "Marketflect",
+    category: ["wp-elementor"],
+    imgPath: "./images/marketflect.webp",
+    liveLink: "https://marketflect.com/",
+    linkGithub: "",
   },
   {
     projectTitle: "Satcofood",
     category: ["wp-elementor"],
     imgPath: "./images/satcofood.png",
     liveLink: "https://satcofood.com/",
-  },
-  {
-    projectTitle: "Congroupeg",
-    category: ["wp-elementor"],
-    imgPath: "./images/congroupeg.png",
-    liveLink: "https://congroupeg.com/",
   },
   {
     projectTitle: "Jbara Automotive",
@@ -50,17 +76,17 @@ export const myProjects = [
     linkGithub: "",
   },
   {
-    projectTitle: "Marketflect",
-    category: ["wp-elementor"],
-    imgPath: "./images/marketflect.png",
-    liveLink: "https://marketflect.com/",
-    linkGithub: "",
-  },
-  {
     projectTitle: "Dr Jumbo Bags",
     category: ["react-tailwindcss"],
     imgPath: "./images/drjumbo.png",
     liveLink: "https://drjumbobag.com/",
+    linkGithub: "",
+  },
+  {
+    projectTitle: "Online Coaching",
+    category: ["react-tailwindcss"],
+    imgPath: "./images/online-coaching.webp",
+    liveLink: "https://mosallamabdulrahman.github.io/Online-Coaching/",
     linkGithub: "",
   },
   {
@@ -73,25 +99,17 @@ export const myProjects = [
   {
     projectTitle: "A3elank",
     category: ["wp-blocks"],
-    imgPath: "./images/a3elank.png",
+    imgPath: "./images/a3elank.webp",
     liveLink: "https://a3elank.com/",
     linkGithub: "",
   },
   {
     projectTitle: "Mosallam Design Legacy",
     category: ["tailwindcss"],
-    imgPath: "./images/mosallam-company-design-legacy.png",
+    imgPath: "./images/mosallam-company-design-legacy.webp",
     liveLink:
       "https://mosallamabdulrahman.github.io/mosallam-company-design-legacy/",
     linkGithub: "",
-  },
-
-  {
-    projectTitle: "AMI",
-    category: ["css"],
-    imgPath: "./images/ami.jpg",
-    liveLink: "https://mosallamabdulrahman.github.io/AMI/",
-    linkGithub: "https://github.com/mosallamabdulrahman/AMI",
   },
   {
     projectTitle: "PrayerTimes",
@@ -115,15 +133,5 @@ export const myProjects = [
     imgPath: "./images/todos-by-react.jpg",
     liveLink: "https://mosallamabdulrahman.github.io/Todos-by-React/",
     linkGithub: "https://github.com/mosallamabdulrahman/Todos-by-React",
-  },
-
-  {
-    projectTitle: "Strong Password Generator",
-    category: ["js"],
-    imgPath: "./images/strong-password-generator.jpg",
-    liveLink:
-      "https://mosallamabdulrahman.github.io/Strong-Password-Generator/",
-    linkGithub:
-      "https://github.com/mosallamabdulrahman/Strong-Password-Generator",
   },
 ];
