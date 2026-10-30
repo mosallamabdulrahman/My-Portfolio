@@ -78,7 +78,7 @@ export const myProjects = [
   {
     projectTitle: "Dr Jumbo Bags",
     category: ["react-tailwindcss"],
-    imgPath: "./images/drjumbo.png",
+    imgPath: "./images/drjumbobag.webp",
     liveLink: "https://drjumbobag.com/",
     linkGithub: "",
   },
